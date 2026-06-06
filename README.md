@@ -39,23 +39,39 @@ AI-Resume-Analyzer
 
 ## Installation
 
-1. Clone the repository
+### 1. Clone the Repository
 
-2. Install dependencies
+```bash
+git clone https://github.com/Lucky-Naik/AI-Resume-Analyzer.git
+```
 
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-3. Create a .env file
+### 3. Create a .env File
 
+```env
 GEMINI_API_KEY=YOUR_API_KEY
+```
 
-4. Run the application
+### 4. Run the Application
 
+```bash
 streamlit run app.py
+```
 
 ## Screenshots
 
-(Add screenshots here)
+### Home Page
+
+![Home Page](screenshots/home_pg.png)
+
+### Analysis Page
+
+![Analysis Page](screenshots/analysis_pg.png)
 
 ## Author
 
